@@ -1,0 +1,60 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "himanshu/price-block",
+  "version": "0.1.0",
+  "title": "Price Block",
+  "category": "widgets",
+  "icon": "money-alt",
+  "description": "Show you different pricings plans using blocks.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "interactivity": true,
+    "align": [
+      "full",
+      "wide"
+    ]
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Text"
+    },
+    "price": {
+      "type": "string",
+      "default": "2.2"
+    },
+    "currency": {
+      "type": "string",
+      "default": "$"
+    },
+    "duration": {
+      "type": "string",
+      "default": "month"
+    },
+    "cta": {
+      "type": "object",
+      "default": {
+        "msg": "Buy",
+        "href": "/#"
+      }
+    },
+    "features": {
+      "type": "array",
+      "default": [
+        "Next Level Demo",
+        "Life time free"
+      ]
+    },
+    "bgColor": {
+      "type": "string"
+    }
+  },
+  "textdomain": "price-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

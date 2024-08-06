@@ -1,0 +1,77 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+// .wp-block-create-block-price-block {
+// 	background-color: #21759b;
+// 	color: #fff;
+// 	padding: 2px;
+// }
+
+.product-card {
+	/* Overall styling for the product card */
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.product-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: unset;
+}
+
+.product-title {
+	/* Style for the product title */
+	font-size: 1.6rem;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.product-price {
+	/* Style for the product price */
+	font-size: 1.2rem;
+	color: #333; /* Adjust for readability */
+	text-align: center;
+}
+
+.product-features {
+	/* Style for the product features list */
+	list-style: circle;
+	padding: 24px;
+	li {
+		/* Style for individual feature list items */
+		margin-bottom: 5px;
+		font-size: 1rem;
+	}
+}
+
+.product-call-to-action {
+	/* Style for the call to action button */
+	display: block;
+	text-align: center;
+	padding: 10px 40px;
+	border: 1px solid #007bff;
+	border-radius: 30px;
+	background-color: #fff; /* Adjust based on your theme */
+	color: #007bff;
+	text-decoration: none; /* Remove underline */
+	transition: background-color 0.2s ease-in-out; /* Add hover effect */
+	position: relative;
+	bottom: 0;
+}
+
+.product-call-to-action:hover {
+	background-color: #0069d9;
+	color: #fff;
+}
