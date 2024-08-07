@@ -1,0 +1,23 @@
+{
+	"name": "himsanshubari/price-block",
+	"autoload": {
+		"psr-4": {
+			"Himsanshubari\\PriceBlock\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "himanshuBari-BSF",
+			"email": "himanshuba@bsf.io"
+		}
+	],
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^3.1",
+		"phpcompatibility/phpcompatibility-wp": "*"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}
