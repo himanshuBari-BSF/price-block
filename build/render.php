@@ -18,7 +18,7 @@
 	<div className="product-details">
 		<h2 class="product-title"><?php echo $attributes['title'] ?></h2>
 		<p class="product-price">
-			<?php echo "{$attributes['currency']} {$attributes['price']}" ?>
+			<?php echo "{$attributes['currency']} {$attributes['price']} / {$attributes['duration']}" ?>
 		</p>
 		<ul class="product-features">
 			<?php foreach ( $attributes["features"] as $feat ) { ?>
