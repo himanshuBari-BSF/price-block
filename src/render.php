@@ -14,19 +14,19 @@
 
 ?>
 
-<div class="product-card" style="background-color: <?php echo $attributes["bgColor"] ?>">
+<div class="product-card" style="background-color: <?php echo $attributes['bgColor']; ?>">
 	<div className="product-details">
-		<h2 class="product-title"><?php echo $attributes['title'] ?></h2>
+		<h2 class="product-title"><?php echo $attributes['title']; ?></h2>
 		<p class="product-price">
-			<?php echo "{$attributes['currency']} {$attributes['price']} / {$attributes['duration']}" ?>
+			<?php echo "{$attributes['currency']} {$attributes['price']} / {$attributes['duration']}"; ?>
 		</p>
 		<ul class="product-features">
-			<?php foreach ( $attributes["features"] as $feat ) { ?>
-				<li><?php echo $feat ?></li>
+			<?php foreach ( $attributes['features'] as $feat ) { ?>
+				<li><?php echo $feat; ?></li>
 			<?php } ?>
 		</ul>
 	</div>
-	<a href="<?php echo $attributes["cta"]["href"] ?>" class="product-call-to-action">
-		<?php echo $attributes["cta"]["msg"] ?>
+	<a href="<?php echo $attributes['cta']['href']; ?>" class="product-call-to-action">
+		<?php echo $attributes['cta']['msg']; ?>
 	</a>
 </div>
